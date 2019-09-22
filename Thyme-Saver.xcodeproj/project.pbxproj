@@ -1,0 +1,947 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		080CCE04203F6FFA00EB8785 /* ProfileSetupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080CCE03203F6FFA00EB8785 /* ProfileSetupVC.swift */; };
+		08287C4F204349F900FF5FD6 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08287C4E204349F900FF5FD6 /* HomeVC.swift */; };
+		08287C512045C21100FF5FD6 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08287C502045C21100FF5FD6 /* ProfileVC.swift */; };
+		08287C532048A34A00FF5FD6 /* ProfileEditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08287C522048A34A00FF5FD6 /* ProfileEditVC.swift */; };
+		08287C55204CE6C700FF5FD6 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08287C54204CE6C700FF5FD6 /* SearchVC.swift */; };
+		08287C57204F4D1500FF5FD6 /* PasswordResetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08287C56204F4D1500FF5FD6 /* PasswordResetVC.swift */; };
+		0854B38B202BC77C006A90E9 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0854B38A202BC77C006A90E9 /* SignUpVC.swift */; };
+		0854B38D202BC9C9006A90E9 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0854B38C202BC9C9006A90E9 /* SignInVC.swift */; };
+		08B9A964206B3AE700FED03C /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B9A95F206B3ACF00FED03C /* Business.swift */; };
+		08B9A965206B3AE700FED03C /* BusinessesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B9A960206B3AD300FED03C /* BusinessesViewController.swift */; };
+		08B9A966206B3AE700FED03C /* BusinessTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B9A961206B3AD700FED03C /* BusinessTableViewCell.swift */; };
+		08B9A967206B3AE700FED03C /* YelpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B9A962206B3ADD00FED03C /* YelpClient.swift */; };
+		08B9A968206B3AE700FED03C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B9A963206B3AE600FED03C /* DetailViewController.swift */; };
+		08B9A96A206B47BE00FED03C /* CuisineShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B9A969206B47BE00FED03C /* CuisineShared.swift */; };
+		08C48552201D3BBC00E8743F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C48551201D3BBC00E8743F /* AppDelegate.swift */; };
+		08C48554201D3BBC00E8743F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C48553201D3BBC00E8743F /* ViewController.swift */; };
+		08C48557201D3BBC00E8743F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C48555201D3BBC00E8743F /* Main.storyboard */; };
+		08C48559201D3BBC00E8743F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08C48558201D3BBC00E8743F /* Assets.xcassets */; };
+		08C4855C201D3BBC00E8743F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C4855A201D3BBC00E8743F /* LaunchScreen.storyboard */; };
+		08C48567201D3BBC00E8743F /* Thyme_SaverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C48566201D3BBC00E8743F /* Thyme_SaverTests.swift */; };
+		08C48572201D3BBC00E8743F /* Thyme_SaverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C48571201D3BBC00E8743F /* Thyme_SaverUITests.swift */; };
+		08C48580201D3D0000E8743F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08C4857F201D3D0000E8743F /* GoogleService-Info.plist */; };
+		3226B59DAAB616F944009916 /* Pods_Thyme_Saver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C2CD54F52D227F93691926 /* Pods_Thyme_Saver.framework */; };
+		C1FBE3EEBF3AC7A92A0801A3 /* Pods_Thyme_SaverTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA5075265E956FEE427713E /* Pods_Thyme_SaverTests.framework */; };
+		F7E1143061C363DCE243FF5C /* Pods_Thyme_SaverUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99558146944AD81A771F7B2E /* Pods_Thyme_SaverUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08C48563201D3BBC00E8743F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08C48546201D3BBC00E8743F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08C4854D201D3BBC00E8743F;
+			remoteInfo = "Thyme-Saver";
+		};
+		08C4856E201D3BBC00E8743F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08C48546201D3BBC00E8743F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08C4854D201D3BBC00E8743F;
+			remoteInfo = "Thyme-Saver";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		080CCE03203F6FFA00EB8785 /* ProfileSetupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSetupVC.swift; sourceTree = "<group>"; };
+		08287C4E204349F900FF5FD6 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		08287C502045C21100FF5FD6 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		08287C522048A34A00FF5FD6 /* ProfileEditVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditVC.swift; sourceTree = "<group>"; };
+		08287C54204CE6C700FF5FD6 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		08287C56204F4D1500FF5FD6 /* PasswordResetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetVC.swift; sourceTree = "<group>"; };
+		0854B38A202BC77C006A90E9 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		0854B38C202BC9C9006A90E9 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		08B9A95F206B3ACF00FED03C /* Business.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Business.swift; path = ../../../Downloads/Business.swift; sourceTree = "<group>"; };
+		08B9A960206B3AD300FED03C /* BusinessesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessesViewController.swift; sourceTree = "<group>"; };
+		08B9A961206B3AD700FED03C /* BusinessTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessTableViewCell.swift; sourceTree = "<group>"; };
+		08B9A962206B3ADD00FED03C /* YelpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpClient.swift; sourceTree = "<group>"; };
+		08B9A963206B3AE600FED03C /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		08B9A969206B47BE00FED03C /* CuisineShared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuisineShared.swift; sourceTree = "<group>"; };
+		08C4854E201D3BBC00E8743F /* Thyme-Saver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Thyme-Saver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08C48551201D3BBC00E8743F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		08C48553201D3BBC00E8743F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		08C48556201D3BBC00E8743F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08C48558201D3BBC00E8743F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08C4855B201D3BBC00E8743F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08C4855D201D3BBC00E8743F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08C48562201D3BBC00E8743F /* Thyme-SaverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Thyme-SaverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08C48566201D3BBC00E8743F /* Thyme_SaverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thyme_SaverTests.swift; sourceTree = "<group>"; };
+		08C48568201D3BBC00E8743F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08C4856D201D3BBC00E8743F /* Thyme-SaverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Thyme-SaverUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08C48571201D3BBC00E8743F /* Thyme_SaverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thyme_SaverUITests.swift; sourceTree = "<group>"; };
+		08C48573201D3BBC00E8743F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08C4857F201D3D0000E8743F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0BA5075265E956FEE427713E /* Pods_Thyme_SaverTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Thyme_SaverTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EFF5E0AD3DACA191D968236 /* Pods-Thyme-SaverTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thyme-SaverTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Thyme-SaverTests/Pods-Thyme-SaverTests.debug.xcconfig"; sourceTree = "<group>"; };
+		81965C29AA3DC9CB7A990815 /* Pods-Thyme-SaverUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thyme-SaverUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Thyme-SaverUITests/Pods-Thyme-SaverUITests.release.xcconfig"; sourceTree = "<group>"; };
+		99558146944AD81A771F7B2E /* Pods_Thyme_SaverUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Thyme_SaverUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5D49A2E6C47544FF7B42B44 /* Pods-Thyme-Saver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thyme-Saver.release.xcconfig"; path = "Pods/Target Support Files/Pods-Thyme-Saver/Pods-Thyme-Saver.release.xcconfig"; sourceTree = "<group>"; };
+		C6A0DD980C9B1BC11EEDCB3C /* Pods-Thyme-SaverUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thyme-SaverUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Thyme-SaverUITests/Pods-Thyme-SaverUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E58345A97482820C7DA19D05 /* Pods-Thyme-SaverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thyme-SaverTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Thyme-SaverTests/Pods-Thyme-SaverTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED9A25368034EC75A2627DE9 /* Pods-Thyme-Saver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thyme-Saver.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Thyme-Saver/Pods-Thyme-Saver.debug.xcconfig"; sourceTree = "<group>"; };
+		F1C2CD54F52D227F93691926 /* Pods_Thyme_Saver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Thyme_Saver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08C4854B201D3BBC00E8743F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3226B59DAAB616F944009916 /* Pods_Thyme_Saver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08C4855F201D3BBC00E8743F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1FBE3EEBF3AC7A92A0801A3 /* Pods_Thyme_SaverTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08C4856A201D3BBC00E8743F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E1143061C363DCE243FF5C /* Pods_Thyme_SaverUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08C48545201D3BBC00E8743F = {
+			isa = PBXGroup;
+			children = (
+				08C48550201D3BBC00E8743F /* Thyme-Saver */,
+				08C48565201D3BBC00E8743F /* Thyme-SaverTests */,
+				08C48570201D3BBC00E8743F /* Thyme-SaverUITests */,
+				08C4854F201D3BBC00E8743F /* Products */,
+				52715FB9459190C52434A1CC /* Pods */,
+				D0057D61FCBE23AFE74BD9BE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		08C4854F201D3BBC00E8743F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08C4854E201D3BBC00E8743F /* Thyme-Saver.app */,
+				08C48562201D3BBC00E8743F /* Thyme-SaverTests.xctest */,
+				08C4856D201D3BBC00E8743F /* Thyme-SaverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08C48550201D3BBC00E8743F /* Thyme-Saver */ = {
+			isa = PBXGroup;
+			children = (
+				08C48551201D3BBC00E8743F /* AppDelegate.swift */,
+				08C48553201D3BBC00E8743F /* ViewController.swift */,
+				08287C56204F4D1500FF5FD6 /* PasswordResetVC.swift */,
+				0854B38C202BC9C9006A90E9 /* SignInVC.swift */,
+				0854B38A202BC77C006A90E9 /* SignUpVC.swift */,
+				080CCE03203F6FFA00EB8785 /* ProfileSetupVC.swift */,
+				08287C4E204349F900FF5FD6 /* HomeVC.swift */,
+				08287C502045C21100FF5FD6 /* ProfileVC.swift */,
+				08287C522048A34A00FF5FD6 /* ProfileEditVC.swift */,
+				08287C54204CE6C700FF5FD6 /* SearchVC.swift */,
+				08B9A969206B47BE00FED03C /* CuisineShared.swift */,
+				08B9A95F206B3ACF00FED03C /* Business.swift */,
+				08B9A960206B3AD300FED03C /* BusinessesViewController.swift */,
+				08B9A961206B3AD700FED03C /* BusinessTableViewCell.swift */,
+				08B9A963206B3AE600FED03C /* DetailViewController.swift */,
+				08B9A962206B3ADD00FED03C /* YelpClient.swift */,
+				08C48555201D3BBC00E8743F /* Main.storyboard */,
+				08C48558201D3BBC00E8743F /* Assets.xcassets */,
+				08C4855A201D3BBC00E8743F /* LaunchScreen.storyboard */,
+				08C4857F201D3D0000E8743F /* GoogleService-Info.plist */,
+				08C4855D201D3BBC00E8743F /* Info.plist */,
+			);
+			path = "Thyme-Saver";
+			sourceTree = "<group>";
+		};
+		08C48565201D3BBC00E8743F /* Thyme-SaverTests */ = {
+			isa = PBXGroup;
+			children = (
+				08C48566201D3BBC00E8743F /* Thyme_SaverTests.swift */,
+				08C48568201D3BBC00E8743F /* Info.plist */,
+			);
+			path = "Thyme-SaverTests";
+			sourceTree = "<group>";
+		};
+		08C48570201D3BBC00E8743F /* Thyme-SaverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				08C48571201D3BBC00E8743F /* Thyme_SaverUITests.swift */,
+				08C48573201D3BBC00E8743F /* Info.plist */,
+			);
+			path = "Thyme-SaverUITests";
+			sourceTree = "<group>";
+		};
+		52715FB9459190C52434A1CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED9A25368034EC75A2627DE9 /* Pods-Thyme-Saver.debug.xcconfig */,
+				A5D49A2E6C47544FF7B42B44 /* Pods-Thyme-Saver.release.xcconfig */,
+				2EFF5E0AD3DACA191D968236 /* Pods-Thyme-SaverTests.debug.xcconfig */,
+				E58345A97482820C7DA19D05 /* Pods-Thyme-SaverTests.release.xcconfig */,
+				C6A0DD980C9B1BC11EEDCB3C /* Pods-Thyme-SaverUITests.debug.xcconfig */,
+				81965C29AA3DC9CB7A990815 /* Pods-Thyme-SaverUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D0057D61FCBE23AFE74BD9BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1C2CD54F52D227F93691926 /* Pods_Thyme_Saver.framework */,
+				0BA5075265E956FEE427713E /* Pods_Thyme_SaverTests.framework */,
+				99558146944AD81A771F7B2E /* Pods_Thyme_SaverUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08C4854D201D3BBC00E8743F /* Thyme-Saver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08C48576201D3BBC00E8743F /* Build configuration list for PBXNativeTarget "Thyme-Saver" */;
+			buildPhases = (
+				2445A4C81775B95E031DAE58 /* [CP] Check Pods Manifest.lock */,
+				08C4854A201D3BBC00E8743F /* Sources */,
+				08C4854B201D3BBC00E8743F /* Frameworks */,
+				08C4854C201D3BBC00E8743F /* Resources */,
+				8AE75F67BFCF9E07F05CF382 /* [CP] Embed Pods Frameworks */,
+				6E3D6D3E751FFD6826839D68 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Thyme-Saver";
+			productName = "Thyme-Saver";
+			productReference = 08C4854E201D3BBC00E8743F /* Thyme-Saver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08C48561201D3BBC00E8743F /* Thyme-SaverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08C48579201D3BBC00E8743F /* Build configuration list for PBXNativeTarget "Thyme-SaverTests" */;
+			buildPhases = (
+				096EB86156A3422C4422752E /* [CP] Check Pods Manifest.lock */,
+				08C4855E201D3BBC00E8743F /* Sources */,
+				08C4855F201D3BBC00E8743F /* Frameworks */,
+				08C48560201D3BBC00E8743F /* Resources */,
+				B85E4EEF5885105E49FB16A0 /* [CP] Embed Pods Frameworks */,
+				27BE29335CA13873637F0E67 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08C48564201D3BBC00E8743F /* PBXTargetDependency */,
+			);
+			name = "Thyme-SaverTests";
+			productName = "Thyme-SaverTests";
+			productReference = 08C48562201D3BBC00E8743F /* Thyme-SaverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		08C4856C201D3BBC00E8743F /* Thyme-SaverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08C4857C201D3BBC00E8743F /* Build configuration list for PBXNativeTarget "Thyme-SaverUITests" */;
+			buildPhases = (
+				172F9D96D89234D7212A15AC /* [CP] Check Pods Manifest.lock */,
+				08C48569201D3BBC00E8743F /* Sources */,
+				08C4856A201D3BBC00E8743F /* Frameworks */,
+				08C4856B201D3BBC00E8743F /* Resources */,
+				2B7CD0E76A22DE107CC77910 /* [CP] Embed Pods Frameworks */,
+				EC01AFCC9A199DE95F83C4BF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08C4856F201D3BBC00E8743F /* PBXTargetDependency */,
+			);
+			name = "Thyme-SaverUITests";
+			productName = "Thyme-SaverUITests";
+			productReference = 08C4856D201D3BBC00E8743F /* Thyme-SaverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08C48546201D3BBC00E8743F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Theo Manavazian";
+				TargetAttributes = {
+					08C4854D201D3BBC00E8743F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					08C48561201D3BBC00E8743F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 08C4854D201D3BBC00E8743F;
+					};
+					08C4856C201D3BBC00E8743F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 08C4854D201D3BBC00E8743F;
+					};
+				};
+			};
+			buildConfigurationList = 08C48549201D3BBC00E8743F /* Build configuration list for PBXProject "Thyme-Saver" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08C48545201D3BBC00E8743F;
+			productRefGroup = 08C4854F201D3BBC00E8743F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08C4854D201D3BBC00E8743F /* Thyme-Saver */,
+				08C48561201D3BBC00E8743F /* Thyme-SaverTests */,
+				08C4856C201D3BBC00E8743F /* Thyme-SaverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08C4854C201D3BBC00E8743F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08C4855C201D3BBC00E8743F /* LaunchScreen.storyboard in Resources */,
+				08C48580201D3D0000E8743F /* GoogleService-Info.plist in Resources */,
+				08C48559201D3BBC00E8743F /* Assets.xcassets in Resources */,
+				08C48557201D3BBC00E8743F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08C48560201D3BBC00E8743F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08C4856B201D3BBC00E8743F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		096EB86156A3422C4422752E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Thyme-SaverTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		172F9D96D89234D7212A15AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Thyme-SaverUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2445A4C81775B95E031DAE58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Thyme-Saver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27BE29335CA13873637F0E67 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Thyme-SaverTests/Pods-Thyme-SaverTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseTwitterAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseTwitterAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Thyme-SaverTests/Pods-Thyme-SaverTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B7CD0E76A22DE107CC77910 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Thyme-SaverUITests/Pods-Thyme-SaverUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E3D6D3E751FFD6826839D68 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Thyme-Saver/Pods-Thyme-Saver-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseTwitterAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseTwitterAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Thyme-Saver/Pods-Thyme-Saver-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AE75F67BFCF9E07F05CF382 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Thyme-Saver/Pods-Thyme-Saver-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/BDBOAuth1Manager/BDBOAuth1Manager.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/CDYelpFusionKit/CDYelpFusionKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+				"${BUILT_PRODUCTS_DIR}/YelpAPI/YelpAPI.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BDBOAuth1Manager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CDYelpFusionKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YelpAPI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Thyme-Saver/Pods-Thyme-Saver-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B85E4EEF5885105E49FB16A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Thyme-SaverTests/Pods-Thyme-SaverTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+				"${BUILT_PRODUCTS_DIR}/YelpAPI/YelpAPI.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YelpAPI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Thyme-SaverTests/Pods-Thyme-SaverTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC01AFCC9A199DE95F83C4BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Thyme-SaverUITests/Pods-Thyme-SaverUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08C4854A201D3BBC00E8743F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B9A966206B3AE700FED03C /* BusinessTableViewCell.swift in Sources */,
+				08C48554201D3BBC00E8743F /* ViewController.swift in Sources */,
+				080CCE04203F6FFA00EB8785 /* ProfileSetupVC.swift in Sources */,
+				08287C512045C21100FF5FD6 /* ProfileVC.swift in Sources */,
+				08287C57204F4D1500FF5FD6 /* PasswordResetVC.swift in Sources */,
+				08B9A96A206B47BE00FED03C /* CuisineShared.swift in Sources */,
+				08287C55204CE6C700FF5FD6 /* SearchVC.swift in Sources */,
+				08B9A967206B3AE700FED03C /* YelpClient.swift in Sources */,
+				08C48552201D3BBC00E8743F /* AppDelegate.swift in Sources */,
+				08287C4F204349F900FF5FD6 /* HomeVC.swift in Sources */,
+				0854B38D202BC9C9006A90E9 /* SignInVC.swift in Sources */,
+				08B9A965206B3AE700FED03C /* BusinessesViewController.swift in Sources */,
+				08B9A964206B3AE700FED03C /* Business.swift in Sources */,
+				08B9A968206B3AE700FED03C /* DetailViewController.swift in Sources */,
+				08287C532048A34A00FF5FD6 /* ProfileEditVC.swift in Sources */,
+				0854B38B202BC77C006A90E9 /* SignUpVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08C4855E201D3BBC00E8743F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08C48567201D3BBC00E8743F /* Thyme_SaverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08C48569201D3BBC00E8743F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08C48572201D3BBC00E8743F /* Thyme_SaverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08C48564201D3BBC00E8743F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08C4854D201D3BBC00E8743F /* Thyme-Saver */;
+			targetProxy = 08C48563201D3BBC00E8743F /* PBXContainerItemProxy */;
+		};
+		08C4856F201D3BBC00E8743F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08C4854D201D3BBC00E8743F /* Thyme-Saver */;
+			targetProxy = 08C4856E201D3BBC00E8743F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08C48555201D3BBC00E8743F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08C48556201D3BBC00E8743F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08C4855A201D3BBC00E8743F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08C4855B201D3BBC00E8743F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08C48574201D3BBC00E8743F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		08C48575201D3BBC00E8743F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08C48577201D3BBC00E8743F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED9A25368034EC75A2627DE9 /* Pods-Thyme-Saver.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KQ53J5AZB;
+				INFOPLIST_FILE = "Thyme-Saver/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Theo.Thyme-Saver-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08C48578201D3BBC00E8743F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5D49A2E6C47544FF7B42B44 /* Pods-Thyme-Saver.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KQ53J5AZB;
+				INFOPLIST_FILE = "Thyme-Saver/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Theo.Thyme-Saver-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		08C4857A201D3BBC00E8743F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EFF5E0AD3DACA191D968236 /* Pods-Thyme-SaverTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KQ53J5AZB;
+				INFOPLIST_FILE = "Thyme-SaverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Theo.Thyme-SaverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thyme-Saver.app/Thyme-Saver";
+			};
+			name = Debug;
+		};
+		08C4857B201D3BBC00E8743F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E58345A97482820C7DA19D05 /* Pods-Thyme-SaverTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KQ53J5AZB;
+				INFOPLIST_FILE = "Thyme-SaverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Theo.Thyme-SaverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thyme-Saver.app/Thyme-Saver";
+			};
+			name = Release;
+		};
+		08C4857D201D3BBC00E8743F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6A0DD980C9B1BC11EEDCB3C /* Pods-Thyme-SaverUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KQ53J5AZB;
+				INFOPLIST_FILE = "Thyme-SaverUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Theo.Thyme-SaverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Thyme-Saver";
+			};
+			name = Debug;
+		};
+		08C4857E201D3BBC00E8743F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81965C29AA3DC9CB7A990815 /* Pods-Thyme-SaverUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KQ53J5AZB;
+				INFOPLIST_FILE = "Thyme-SaverUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Theo.Thyme-SaverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Thyme-Saver";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08C48549201D3BBC00E8743F /* Build configuration list for PBXProject "Thyme-Saver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08C48574201D3BBC00E8743F /* Debug */,
+				08C48575201D3BBC00E8743F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08C48576201D3BBC00E8743F /* Build configuration list for PBXNativeTarget "Thyme-Saver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08C48577201D3BBC00E8743F /* Debug */,
+				08C48578201D3BBC00E8743F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08C48579201D3BBC00E8743F /* Build configuration list for PBXNativeTarget "Thyme-SaverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08C4857A201D3BBC00E8743F /* Debug */,
+				08C4857B201D3BBC00E8743F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08C4857C201D3BBC00E8743F /* Build configuration list for PBXNativeTarget "Thyme-SaverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08C4857D201D3BBC00E8743F /* Debug */,
+				08C4857E201D3BBC00E8743F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08C48546201D3BBC00E8743F /* Project object */;
+}
